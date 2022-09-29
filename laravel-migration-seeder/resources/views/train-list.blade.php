@@ -8,7 +8,7 @@
     <ul>
         @foreach ($trains as $train)
             <li>
-                {{$train->id}} <span> della compagnia </span> {{$train->company}} <span> in partenza da </span> {{$train->departures-station}} <span> alle ore </span> {{$train->departures-time}} <span> arriverà a </span> {{$train->arrival-station}} <span> alle ore </span> {{$train->arrival-time}}
+                {{$train->id}} <span> della compagnia </span> {{$train->company}} <span> in partenza da </span> {{$train->departures_station}} <span> alle ore </span> {{$train->departures_time}} <span> arriverà a </span> {{$train->arrival_station}} <span> alle ore </span> {{$train->arrival_time}}
             </li>
         @endforeach
     </ul>
